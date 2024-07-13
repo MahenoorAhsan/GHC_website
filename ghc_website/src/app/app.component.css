@@ -1,0 +1,77 @@
+/* Browser Bar Android / Chrome */
+.top{
+    position: absolute;
+    width: 360px;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+
+/* White */
+    background: #FFFFFF;
+}
+.timetext{
+    /* Browser Bar Android / Chrome */
+    size: 4px;
+    margin-top: 10px;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    color: gray;
+    top: auto;
+}
+.page{
+     /* Home screen: tracker user */
+    border: 1px solid blue;
+    position: relative;
+    width: 360px;
+    height: 2484px;
+    left: 35%;
+    background: #FFFFFF;
+    display: flexbox;
+    align-items: center;
+    padding: 10px;
+
+}
+.icons{
+    height: 15px;
+    width: 15px;
+    display:flex;
+    right: 10px;
+}
+
+/* Welcome, June! */
+.text{
+    position: absolute;
+    height: 20px;
+    left: 13px;
+    top: auto;
+    /* font-style: normal; */
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+.innertext{
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.firstCarousel{
+   /* Frame 3906 */
+    position: relative;
+    height: 80px;
+    /* left: 12px; */
+    top: 35px;
+    overflow-x: scroll;
+    /* gap: 50px; */
+    .img{
+        width: auto;
+        gap: 15px;
+    }
+    .carouselimage{
+        
+        margin-right: 14px;
+        
+    }
+}
